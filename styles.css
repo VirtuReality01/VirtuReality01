@@ -181,7 +181,7 @@ nav ul li a:hover {
 /* Contact Section */
 .contact {
     padding: 60px 20px;
-     background: url('contact.jpg') center/cover no-repeat fixed;
+     background: url('img2.jpg') center/cover no-repeat fixed;
     background-color: #333;
     text-align: center;
 }
@@ -219,7 +219,7 @@ footer {
 /* General Layout for Scenarios Page */
 .scenarios {
     padding: 80px 20px;
-    background: url('img1.jpg') center/cover no-repeat fixed;
+    background: url('contact.jpg') center/cover no-repeat fixed;
     background-color: #444;
     text-align: center;
 }
