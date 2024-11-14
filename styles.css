@@ -53,7 +53,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('VR1.webm') center/cover no-repeat fixed;
+    background: url('img1.jpg') center/cover no-repeat fixed;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 80px 20px;
-    background: url('img1.jpg') center/cover no-repeat fixed;
+    background: url('pexels1.jpg') center/cover no-repeat fixed;
     background-color: #333;
 }
 
@@ -181,6 +181,7 @@ nav ul li a:hover {
 /* Contact Section */
 .contact {
     padding: 60px 20px;
+     background: url('contact.jpg') center/cover no-repeat fixed;
     background-color: #333;
     text-align: center;
 }
