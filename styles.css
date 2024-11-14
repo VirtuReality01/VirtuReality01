@@ -126,6 +126,7 @@ nav ul li a:hover {
 /* Features Section */
 .features {
     padding: 80px 20px;
+    background: url('contact.jpg') center/cover no-repeat fixed; /* Features image */
     background-color: #444;
     text-align: center;
 }
@@ -151,6 +152,7 @@ nav ul li a:hover {
 /* How It Works Section */
 .how-it-works {
     padding: 80px 20px;
+    background: url('hey.jpg') center/cover no-repeat fixed;
     background-color: #222;
     text-align: center;
 }
@@ -219,7 +221,7 @@ footer {
 /* General Layout for Scenarios Page */
 .scenarios {
     padding: 80px 20px;
-    background: url('contact.jpg') center/cover no-repeat fixed;
+    background: url('scen.jpg') center/cover no-repeat fixed;
     background-color: #444;
     text-align: center;
 }
