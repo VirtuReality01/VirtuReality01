@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scenarios - VirtuReality</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>VirtuReality</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#scenarios">Scenarios</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Scenario Selection Section -->
+    <section id="scenarios" class="scenarios">
+        <div class="container">
+            <h2>Select Your Phobia and Level</h2>
+            <div class="scenario-cards">
+                <!-- Scenario 1: Heights -->
+                <div class="scenario-card">
+                    <h3>Heights</h3>
+                    <p>Overcome your fear of heights in various realistic scenarios.</p>
+                    <a href="#heights" class="btn">Select Level</a>
+                    <div class="levels">
+                        <button class="level-btn">Level 1: Low Altitude</button>
+                        <button class="level-btn">Level 2: Medium Altitude</button>
+                        <button class="level-btn">Level 3: High Altitude</button>
+                    </div>
+                </div>
+
+                <!-- Scenario 2: Public Speaking -->
+                <div class="scenario-card">
+                    <h3>Public Speaking</h3>
+                    <p>Overcome your fear of public speaking with realistic crowds and settings.</p>
+                    <a href="#speaking" class="btn">Select Level</a>
+                    <div class="levels">
+                        <button class="level-btn">Level 1: Small Audience</button>
+                        <button class="level-btn">Level 2: Medium Audience</button>
+                        <button class="level-btn">Level 3: Large Audience</button>
+                    </div>
+                </div>
+
+                <!-- Scenario 3: Social Interactions -->
+                <div class="scenario-card">
+                    <h3>Social Interactions</h3>
+                    <p>Overcome the fear of social interactions with various situations.</p>
+                    <a href="#social" class="btn">Select Level</a>
+                    <div class="levels">
+                        <button class="level-btn">Level 1: One-on-One</button>
+                        <button class="level-btn">Level 2: Group Interaction</button>
+                        <button class="level-btn">Level 3: Public Event</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 VirtuReality. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
