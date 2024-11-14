@@ -53,7 +53,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('VR.mp4') center/cover no-repeat fixed;
+    background: url('VR1.mp4') center/cover no-repeat fixed;
     height: 100vh;
     display: flex;
     justify-content: center;
